@@ -63,7 +63,7 @@ In this section “design pattern” refers to the catalogue of patterns by Gamm
 
 For each of the three scenarios below state which design pattern can best solves the problem and briefly explain (in the space provided) how the design pattern is applied to the specific case. Provide a class diagram as well.
 
-4. A GUI driven application is planned with a standard model view controller (MVC) design which has many views, many animations, many controllers and a single model. The model functionality is complex and so is the GUI and thus a single user action (such as a menu selection or a toolbar button press) will require the participation of many view, animation and controller objects working together to be synchronised.	 
+4. A GUI driven application is planned with a standard model view controller (MVC) design which has many views, many controllers and a single model. The model functionality is complex and so is the GUI and thus a single user action (such as a menu selection or a toolbar button press) will require the participation of many view, animation and controller objects working together to be synchronised.	 
 
 
 5. A cross platform GUI toolkit has many widgets and components and is designed to run on multiple platforms such as Windows, Linux and macOS. New platforms should also be supported with minimal changes to client code.    
@@ -81,15 +81,15 @@ For each of the three scenarios below state which design pattern can best solves
 
 **SCENARIO**
 
-> Melbourne Travel, which hires trains and flights from different transport companies, wants to offer customised on-board meals based on travel vehicle. There are two categories of travel vehicles: train and flight. The trains-travel meal consists of a snack, a drink and a main, while a flight-travel meal comprises an appetizer, main, salad, dessert and drink on the flight. While the customer can choose different items in each category (main, dessert, snack, etc.), they must choose from the specific items served by their travel vehicels. For example, the dessert category for Qantas might include ice cream, jelly, and cake, whereas the main category for Malaysian Airlines might include chicken, fish and a vegetarian option.  
+> Melbourne Travel, which hires flights from different airlines, wants to offer customised on-board meals based on travel distance. There are two categories of flights: short trip and long distance. The short trip meal consists of a snack and a soft drink, while a full meal for a long distance flight comprises an appetizer, main, salad, dessert and drink. While the customer can choose different items in each category (main, dessert, snack, etc.) they must choose from the specific items served by each of the hired airlines. For example, the dessert category for Virgin Airlines might include ice cream and jelly, whereas the main category for Singapore Airlines might include chicken, beef, fish and a vegetarian option.
 >
 > You are required to develop a design that simplifies the following extensions:
 >
-> (1) new types of meals (for example 3 course option for a ferry travel);
-> (2) new airlines and trains which provide different meal options in each category.
+> (1) new types of meals (for example 3 course option for a medium distance flight);
+> (2) new airlines which provide different meal options in each category.
 
 
-7. Draw a class diagram for your proposed solution incorporating at least two design patterns using the naming of the problem domain, i.e., do not just draw generic pattern diagrams that do not apply to the meal scenario. Your class diagram should include both of the concrete meal types described above (train and flight). For brevity you can specify a single concrete company and a single meal item for each category for its airline and train but should clearly indicate where additional concrete classes sit in the class hierarchy. Use the `Answers.md` file to add any additional explanation you may need.
+7. Draw a class diagram for your proposed solution incorporating at least two design patterns using the naming of the problem domain, i.e., do not just draw generic pattern diagrams that do not apply to the airline meal scenario. Your class diagram should include both of the concrete meal types described above (snack and full meal). For brevity you can specify a single concrete airline and a single meal item for each category for that airline but should clearly indicate where additional concrete classes sit in the class hierarchy. Use the `Answers.md` file to add any additional explanation you may need.
 
 
 8. Explain briefly how the design patterns facilitate extensibility based on points (1) and (2) above (one or two paragraphs each). Pay particular attention to how changes are isolated from client code.
