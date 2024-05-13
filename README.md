@@ -58,7 +58,7 @@ The following topics are assessed:
  <br /> <br />
 
 
-#### Task 2: src/main/java/task2 [10 marks]
+#### Task 2: src/main/java/task2 [13 marks]
 
 In this section “design pattern” refers to the catalogue of patterns by Gamma et al. that were presented in this course and the immutable data structure patterns.
 
@@ -78,7 +78,7 @@ For each of the three scenarios below state which design pattern can best solve 
 
 
 
-#### Task 3: src/main/java/task3 [10 marks]
+#### Task 3: src/main/java/task3 [12 marks]
 
 **SCENARIO**
 
