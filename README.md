@@ -47,7 +47,7 @@ The following topics are assessed:
 
 1. Based on the requirements in the above case study, you need to design and build the class diagram with the attributes and operations of each class. You must include the relationships that are needed. Save it as a `png` file in the corresponding folder.
 
-2. Use the `ANSWER.md` file to explain _which_ behavioural and architectural patterns you selected, and _which_. You need to justify your decision, so be as extensive as needed. You are _not_ allowed to copy-paste definitions, you need to explain everything in the context of the example. 
+2. Use the `ANSWER.md` file to explain _which_ behavioural and architectural patterns you selected, and _why_. You need to justify your decision, so be as extensive as needed. You are _not_ allowed to copy-paste definitions, you need to explain everything in the context of the example. 
     * If you used creational patterns, you can simply name those without any further explanation needed (only in the case of creational patterns).
 
 3. Implement the code for the diagram above. The code inside the methods can be a dummy return, or have a `//TODO` comment that explains the logic that should be implemented.
